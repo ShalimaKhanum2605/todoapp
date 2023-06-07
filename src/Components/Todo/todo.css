@@ -1,0 +1,20 @@
+.todo-row{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px auto;
+    color: white;
+    background-color: rgb(129, 161, 209);
+}
+
+.icons{
+    color: rgb(255, 255, 255);
+    padding: 16px;
+    border: none;
+    size: 80ch;
+}
+
+.complete{
+    text-decoration: line-through;
+    opacity: 0.4;
+}
