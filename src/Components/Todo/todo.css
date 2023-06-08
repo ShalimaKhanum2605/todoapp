@@ -1,20 +1,21 @@
-.todo-row{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 4px auto;
-    color: white;
-    background-color: rgb(129, 161, 209);
+.todo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+  padding: 10px 20px;
+  color: white;
+  background-color: rgb(129, 161, 209);
 }
 
-.icons{
-    color: rgb(255, 255, 255);
-    padding: 16px;
-    border: none;
-    size: 80ch;
+.icons {
+  color: rgb(255, 255, 255);
+  padding: 16px;
+  border: none;
+  size: 80ch;
 }
 
-.complete{
-    text-decoration: line-through;
-    opacity: 0.4;
+.complete {
+  text-decoration: line-through;
+  opacity: 0.4;
 }

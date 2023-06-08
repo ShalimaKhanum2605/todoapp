@@ -1,43 +1,33 @@
-.todo-form{
-    background-color: rgb(100, 135, 180);
-    padding: 16px;
-    border: none;
-    border-radius: 0 4px 4px 0;
-    cursor: pointer;
+.todo-form {
+  background-color: rgb(100, 135, 180);
+  padding: 16px;
+  border: none;
+  border-radius: 0 4px 4px 0;
 }
 
-.todo-input::placeholder{
-    font: bolder;
-    font-style: oblique;
-    font-size: 110%;
-}
-    
-.todo-input{
-    padding: 16px;
-    border: 2px solid rgb(151, 188, 236);
-    border-radius: 4px 0 0 4px;
-    outline: none;
-    width: 520px;
-    cursor: pointer;
-    background-color: rgb(175, 200, 233);
+.todo-input::placeholder {
+  font: bolder;
+  font-style: oblique;
+  font-size: 110%;
 }
 
-
-.todo-button{
-    padding: 16px;
-    border: 2px solid rgb(151, 188, 236);
-    border-radius: 0 4px 4px 0;
-    cursor: pointer;
-    outline: none;
-    background-color: rgb(151, 188, 236);
-    color: antiquewhite;
-    text-transform: capitalize;
-    font: bolder;
-
+.todo-input {
+  padding: 16px;
+  border: 2px solid rgb(151, 188, 236);
+  border-radius: 4px 0 0 4px;
+  outline: none;
+  width: 520px;
+  background-color: rgb(175, 200, 233);
 }
 
-
-
-
-
-
+.todo-button {
+  padding: 16px;
+  border: 2px solid rgb(151, 188, 236);
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background-color: rgb(151, 188, 236);
+  color: antiquewhite;
+  text-transform: capitalize;
+  font: bolder;
+}
